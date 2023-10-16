@@ -43,20 +43,20 @@ if (testScore < 0) {
 } else if (testScore <= 30) {
   grade = "F (Failed)"; // Setting grade to "F" and providing a description for scores below 30.
 } else if (testScore <= 40) {
-  grade = "E (Below Expectations)"; // Setting grade to "E" and providing a description for scores between 31 and 40.
+  grade = "E (Below Expectations)"; // Setting grade to "E" and providing a description for scores btwn 31 and 40.
 } else if (testScore <= 49) {
   grade = "D (Satisfactory)"; // Setting grade to "D" and providing a description for scores btwn 41 and 49.
 } else if (testScore <= 59) {
   grade = "C (Good)"; // Setting grade to "C" and providing a description for scores btwn 50 and 59.
 } else if (testScore <= 69) {
   grade = "B (Very Good)"; // Setting grade to "B" and providing a description for scores btwn 60 and 69.
-} else if (testScore >= 70) {
+} else if (testScore <= 100) {
   grade = "A (Excellent)"; // Setting grade to "A" for scores 70 and above.
-} else if (testScore >= 101) {
+} else if (testScore >= 100) {
   grade = "Out of Range"; // Setting grade for scores above 100.
 }
 
-// Print a message to the console indicating the test score and the determined grade with a description.
+// Printting the  message to the console indicating the test score and the determining grade you scored.
 console.log(`With a test score of ${testScore}, your performance is graded as: ${grade}`);
 
 
