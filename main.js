@@ -20,3 +20,9 @@ let myVaue = “May”;
 
 myValue = 86;// this is now allowed no errors
 
+//Declaring the three variables with camelCase
+const myFirstName = "lewis";
+const lastName = "Machabe";
+const guruCodingCourse = "Javascript";
+const testScore = 95;
+
