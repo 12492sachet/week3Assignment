@@ -1,4 +1,4 @@
-/*// I have converted the string "45" into a numeric value using the plus operator
+// I have converted the string "45" into a numeric value using the plus operator
 const number = “45”;
 
 //This will diplay numeric 45 in the console.
@@ -58,18 +58,18 @@ if (testScore < 0) {
 
 // Printting the  message to the console indicating the test score and the determining grade you scored.
 console.log(`With a test score of ${testScore}, your performance is graded as: ${grade}`);
-*/
 
 
-// Creating a variable that will store the starting value of the count.
-let count = 1;
 
-while (count <= 20){
-
-  console.log (`Count is :${count}`);
-
-  count++;
+// Using a loop to count from 1 to 20.
+for (let count = 1; count <= 20; count++) {
+  // Inside the loop, print the current value of 'count' to the console.
+  console.log(`Count: ${count}`);
+  // Increment 'count' by 1 in each iteration of the loop.
 }
+
+// The loop will run from 1 to 20
+
 
 
 
